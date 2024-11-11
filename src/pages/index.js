@@ -5,6 +5,7 @@ import TopNav from "../components/layout/topnav.component";
 import FeaturedProductCard from "../components/FeaturedProductsList";
 import ExploreBrandSilder from "../components/ExploreBrandSilder";
 import Footer from "../components/layout/footer.component";
+import ProductsSilder from "../components/ProductsSilder";
 
 
 
@@ -112,7 +113,18 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+        <section className="py-[20px]">
+          <div className="bg-white rounded-md p-[20px]">
+            <div className="flex w-full justify-between">
+              <h4 className="font-semibold">Explore Products</h4>
+              <Link href='' className="text-[#0585d5] text-[14px]">View All</Link>
+            </div>
+            <div className=" mt-[20px]">
+               <ProductsSilder/>
 
+            </div>
+          </div>
+        </section>
         <section className="py-[20px]">
           <div className="grid grid-cols-12 gap-[10px]">
             <div className="col-span-2">

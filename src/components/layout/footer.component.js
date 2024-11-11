@@ -150,7 +150,7 @@ export default function Footer(){
         className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4"
       >
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-white">About Us</p>
+          <p className="text-lg font-medium text-white uppercase">About Us</p>
 
           <nav className="mt-8">
             <ul className="space-y-4 text-sm">
@@ -181,40 +181,10 @@ export default function Footer(){
           </nav>
         </div>
 
-        <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-white">Our Services</p>
-
-          <nav className="mt-8">
-            <ul className="space-y-4 text-sm">
-              <li>
-                <a className="text-white transition hover:text-white/75" href="/">
-                  Web Development
-                </a>
-              </li>
-
-              <li>
-                <a className="text-white transition hover:text-white/75" href="/">
-                  Web Design
-                </a>
-              </li>
-
-              <li>
-                <a className="text-white transition hover:text-white/75" href="/">
-                  Marketing
-                </a>
-              </li>
-
-              <li>
-                <a className="text-white transition hover:text-white/75" href="/">
-                  Google Ads
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+       
 
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-white">Helpful Links</p>
+          <p className="text-lg font-medium text-white">CONSUMER POLICY</p>
 
           <nav className="mt-8">
             <ul className="space-y-4 text-sm">
@@ -227,6 +197,11 @@ export default function Footer(){
               <li>
                 <a className="text-white transition hover:text-white/75" href="/">
                   Support
+                </a>
+              </li>
+              <li>
+                <a className="text-white transition hover:text-white/75" href="/">
+                Cancellation & Returns
                 </a>
               </li>
 
@@ -252,8 +227,40 @@ export default function Footer(){
             </ul>
           </nav>
         </div>
-
         <div className="text-center sm:text-left">
+          <p className="text-lg font-medium text-white">POPULAR SEARCHES</p>
+
+          <nav className="mt-8">
+            <ul className="space-y-4 text-sm">
+              <li>
+                <a className="text-white transition hover:text-white/75" href="/">
+                Adidas 
+                </a>
+              </li>
+
+              <li>
+                <a className="text-white transition hover:text-white/75" href="/">
+                Cricket Shoes
+                </a>
+              </li>
+              <li>
+                <a className="text-white transition hover:text-white/75" href="/">
+                Puma
+                </a>
+              </li>
+              <li>
+                <a className="text-white transition hover:text-white/75" href="/">
+                Nike Sports
+                </a>
+              </li>
+
+            
+            </ul>
+          </nav>
+        </div>
+
+        
+        <div className="text-center sm:text-left uppercase">
           <p className="text-lg font-medium text-white">Contact Us</p>
 
           <ul className="mt-8 space-y-4 text-sm">

@@ -1,0 +1,66 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f7f7f7;
+}
+
+.p-inputtext {
+  border-radius: 10px;
+  padding: 0.60rem 0.75rem 0.60rem 2rem;
+}
+
+.cust_search .p-inputtext {
+  width: 600px;
+  background: #f7f7f7;
+}
+
+.p-inputtext:enabled:hover {
+  border-color: #0585d5;
+}
+
+.p-inputtext:enabled:focus {
+  box-shadow: none;
+}
+
+.slick-prev {
+  left: 0px !important;
+  z-index: 9;
+}
+
+.slick-next {
+  right: 0px !important;
+}
+
+h4 {
+  position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 5px;
+}
+
+h4:before {
+  content: '';
+  height: 4px;
+  width: 30px;
+  background-color: #0585d5;
+  position: absolute;
+  bottom: 0;
+  border-radius: 20px;
+}
+
+.brand-gradient {
+  background: -webkit-linear-gradient(90deg, hsl(278.57deg 20.59% 86.67%) 0%, hsla(333, 73%, 85%, 1) 50%, hsl(209.12deg 3.99% 4.54% / 29%) 100%);
+}

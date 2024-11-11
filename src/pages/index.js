@@ -4,6 +4,7 @@ import Layout from "../components/layout/layout";
 import TopNav from "../components/layout/topnav.component";
 import FeaturedProductCard from "../components/FeaturedProductsList";
 import ExploreBrandSilder from "../components/ExploreBrandSilder";
+import Footer from "../components/layout/footer.component";
 
 
 
@@ -57,7 +58,7 @@ export default function HomePage() {
   );
  
   return (
-    <div className="mb-[50px]">
+    <div className="mb-[px]">
       <TopNav />
       <div className=" px-[20px]  xl:px-[10.208vw] 3xl:px-[10.417vw]">
         <Banner />
@@ -204,11 +205,15 @@ export default function HomePage() {
           </div>
 
           <div className="col-span-8">
-            <div className="h-full bg-[#a8caec] rounded-md"></div>
+            <div className="h-full bg-[#a8caec] rounded-md">
+            <img src={require('../assets/images/ad2.png')} className="h-auto w-full object-fit" />
+            </div>
           </div>
           </div>
         </section>
+      
       </div>
+      <Footer/>
     </div>
   );
 }

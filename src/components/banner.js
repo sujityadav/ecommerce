@@ -55,13 +55,13 @@ export default function Banner(){
      <div className="slider-container">
       <Slider {...settings}>
         <div>
-         <img src={silder1} height={300}/>
+         <img src={silder1} height={300} className="w-full"/>
         </div>
         <div>
-        <img src={silder2} height={300}/>
+        <img src={silder2} height={300} className="w-full"/>
         </div>
         <div>
-        <img src={silder3} height={300}/>
+        <img src={silder3} height={300} className="w-full"/>
         </div>
        
       </Slider>

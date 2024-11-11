@@ -61,7 +61,7 @@ export default function HomePage() {
   return (
     <div className="mb-[px]">
       <TopNav />
-      <div className=" px-[20px]  xl:px-[10.208vw] 3xl:px-[10.417vw]">
+      <div className=" px-[20px]  xl:px-[6.208vw] 3xl:px-[10.417vw]">
         <Banner />
         <section className="pt-[50px] pb-[30px]">
           <div className="p-[20px] bg-white rounded-sm">

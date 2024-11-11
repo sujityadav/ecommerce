@@ -14,12 +14,12 @@ export default function Footer(){
   return (
     <>
     <footer className="bg-gray-900 mt-[50px]">
-  <div className="max-w-screen-2xl px-4 pt-16 pb-6 mx-auto  lg:pt-24">
+  <div className="xl:max-w-screen-2xl 3xl:max-w-screen-2xl px-4 pt-16 pb-6 mx-auto  lg:pt-24">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
         <div className="flex justify-center text-teal-300 sm:justify-start">
-        <div classNameName="">
-            <img src={Logo}  classNameName="max-w-[200px]"/>
+        <div className="">
+            <img src={Logo}  className="max-w-[200px]"/>
         </div>
         </div>
 

@@ -18,7 +18,7 @@ body {
   background-color: #f7f7f7;
 }
 
-.p-inputtext {
+.cust_search .p-inputtext {
   border-radius: 10px;
   padding: 0.60rem 0.75rem 0.60rem 2rem;
 }
@@ -63,4 +63,33 @@ h4:before {
 
 .brand-gradient {
   background: -webkit-linear-gradient(90deg, hsl(278.57deg 20.59% 86.67%) 0%, hsla(333, 73%, 85%, 1) 50%, hsl(209.12deg 3.99% 4.54% / 29%) 100%);
+}
+.login-bg 
+{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.loginimg
+{
+max-height: 65%;
+max-width: 65%;
+z-index: 1;
+margin-top: 1.25rem !important;
+margin-bottom: 1.25rem !important;
+}
+.bgbottom{
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+  height: 35%;
+} 
+.p-password .p-inputtext 
+{
+  padding: 0.55rem 0.75rem;
+}
+.p-icon-field > .p-input-icon 
+{
+  top: 38%;
 }

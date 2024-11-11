@@ -16,11 +16,11 @@ export default function TopNav(){
     const [checked, setChecked] = useState(false);
   return (
     <div className="flex justify-between  border-b drop-shadow-xs items-center bg-[#fff]  px-[20px] 
-    xl:px-[6.208vw] 3xl:px-[10.417vw] py-[5px] drop-shadow-sm">
+    xl:px-[8.208vw] 3xl:px-[10.417vw] py-[5px] drop-shadow-sm">
       
-      <div className="">
+      <Link to='/' className="">
           <img src={Logo}  className="max-w-[200px]"/>
-      </div>
+      </Link>
     
       <div className="cust_search relative"> 
       <IconField iconPosition="left">

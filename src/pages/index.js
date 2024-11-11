@@ -61,11 +61,11 @@ export default function HomePage() {
   return (
     <div className="mb-[px]">
       <TopNav />
-      <div className=" px-[20px]  xl:px-[6.208vw] 3xl:px-[10.417vw]">
+      <div className=" px-[20px]  xl:px-[8.208vw] 3xl:px-[10.417vw]">
         <Banner />
         <section className="pt-[50px] pb-[30px]">
           <div className="p-[20px] bg-white rounded-sm">
-            <div className="px-[120px]">
+            <div className="px-[120px] xl:px-[80px]">
               <div className="grid grid-cols-6 md:grid-cols-6 xl:grid-cols-6 2xl:grid-cols-6 gap-[1.823vw]">
                 <div className="text-center">
                   <img src={require('../assets/images/discount.gif')} width={60} className="m-auto" />

@@ -98,3 +98,19 @@ margin-bottom: 1.25rem !important;
 {
   top: 38%;
 }
+.custom-accordion .p-accordion .p-accordion-header .p-accordion-header-link
+
+{
+  padding: .80rem;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: transparent;
+  border-bottom: 1px solid #e5e7eb !important;
+}
+.p-checkbox .p-checkbox-box 
+{
+ 
+
+  width: 20px;
+  height: 20px;
+}

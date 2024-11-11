@@ -85,11 +85,16 @@ margin-bottom: 1.25rem !important;
   left: 0%;
   height: 35%;
 } 
+.p-password .p-icon-field
+{
+  width: 100%;
+}
 .p-password .p-inputtext 
 {
   padding: 0.55rem 0.75rem;
+  width: 100%;
 }
-.p-icon-field > .p-input-icon 
+.p-password .p-icon-field > .p-input-icon 
 {
   top: 38%;
 }

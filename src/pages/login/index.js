@@ -37,7 +37,7 @@ export default function Login() {
                         <Password value={value} onChange={(e) => setValue(e.target.value)}  className="w-full" toggleMask />
                     </div>
                     <div className="mt-[40px] w-full ">
-                    <a href="" className="flex justify-center w-full p-2 text-center text-white bg-[#0585d5] rounded-md">Sign In</a>
+                    <a href="/" className="flex justify-center w-full p-2 text-center text-white bg-[#0585d5] rounded-md">Sign In</a>
                     </div>
              
             </div>

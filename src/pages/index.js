@@ -117,7 +117,7 @@ export default function HomePage() {
           <div className="bg-white rounded-md p-[20px]">
             <div className="flex w-full justify-between">
               <h4 className="font-semibold">Explore Products</h4>
-              <Link href='' className="text-[#0585d5] text-[14px]">View All</Link>
+              <Link to='/pages/productlist' className="text-[#0585d5] text-[14px]">View All</Link>
             </div>
             <div className=" mt-[20px]">
                <ProductsSilder/>
